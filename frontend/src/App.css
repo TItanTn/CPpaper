@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Sign In View */
+
+.sign-in-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.sign-in-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+/* Nav Component */
+
+.nav-logo-name {
+  display: flex;
+
+  color: #1565C0;
+  gap: 10px;
+
+  font-size: 20px;
+  align-items: center;
+}
+
+nav {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px;
+
+  color: #1565C0;
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+nav img {
+  width: 60px;
+  padding-right: 20px;
+}
+
+.nav-user-sign-out {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-user-sign-out div {
+  border: solid #1565C0 3px;
+  border-radius: 5px;
+  padding: 7px;
+}
+
+/* Add Paper Button */
+
+/* .add-paper-button {
+  padding: 10px;
+} */
+
+/* Dense Table */
+
+.DenseTable {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Paper Page */
+
+.paper-page-body {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.paper-page-transactions {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+/* Input Transaction */
+
+.InputTransaction {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  box-shadow: 24;
+
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  width: fit-content;
+
+  gap: 30px;
+  padding: 20px;
+  border: #1565C0 solid 3px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+/* Input Paper */
+
+.paper-input-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.InputPaper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  box-shadow: 24;
+
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  width: fit-content;
+
+  gap: 30px;
+  padding: 20px;
+  border: #1565C0 solid 3px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.add-x {
+  display: flex;
+  align-items: center;
+
+  width: 20px;
+  height: 25px;
+  margin: 10px;
+}
+
+/* Filter Box */
+
+.filter-box {
+  display: flex;
+  align-items: left;
+  flex-direction: column;
+  width: fit-content;
+
+  gap: 30px;
+  padding: 20px;
+  border: #1565C0 solid 3px;
+  border-radius: 5px;
+}
+
+/* Global */
+
+.wide {
+  width: 100%;
+}
+
+.flex-sb-aic {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+}
